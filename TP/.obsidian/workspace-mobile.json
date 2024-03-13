@@ -1,0 +1,139 @@
+{
+  "main": {
+    "id": "c1ca01bc67344bf6",
+    "type": "split",
+    "children": [
+      {
+        "id": "a4fa2f3f0a9585ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2a9737262f5306e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BIBLIOTECI SI MAKEFILE.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d94f31d4237ee578",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "35ed1e01d5ee3ae0",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "81074538a12aadc0",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "91969c6433299c06",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "8b3515b656b2e6b6",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ]
+  },
+  "right": {
+    "id": "02f1fc4407edbd77",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "b40dddab73046c96",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "BIBLIOTECI SI MAKEFILE.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "1c7d5ed7e1c0c098",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "BIBLIOTECI SI MAKEFILE.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "fd5313440b9c1df5",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "BIBLIOTECI SI MAKEFILE.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "2a9737262f5306e2",
+  "lastOpenFiles": [
+    "GREEDY.md",
+    "COMPLEXITATE ALGORITMICA.md",
+    "BIBLIOTECI SI MAKEFILE.md"
+  ]
+}

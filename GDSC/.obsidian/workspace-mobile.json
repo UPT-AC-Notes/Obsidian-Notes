@@ -1,0 +1,136 @@
+{
+  "main": {
+    "id": "826ffda4c06cda12",
+    "type": "split",
+    "children": [
+      {
+        "id": "38077769aadec22f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "000cbe17b05645ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LINUX WALKTROUGH.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f8a7b0db923c2937",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "6f4e780601a2713c",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "8ee6964f8220fae3",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "5463dfb2f1e767cb",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "6053f1def30ee935",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "d27fc373afcb6cd5",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "b9c684969a87f193",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "LINUX WALKTROUGH.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "8bca11c6d6b20993",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "LINUX WALKTROUGH.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "65098cefd81f134b",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "LINUX WALKTROUGH.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "000cbe17b05645ea",
+  "lastOpenFiles": []
+}
