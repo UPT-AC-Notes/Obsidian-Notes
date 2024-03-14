@@ -159,10 +159,30 @@ int dequeue(queue *q) {
   }
 
   q->head++;
+
+  if (q->head == QUEUE_CHUNK) {
+    if (QUEUE_DEBUG) {
+      printf("chunk reached, resetting head position to 0");
+    }
+
+    move_queue(q);
+  }
+
   return 1;
 }
 ```
 
+## QUEUE RESET
+
+- daca din coada se elimina un anumit numar de intrari, aceasta este resetata pe prima pozitie, precum o masina de scris
+
+```c
+void move_queue(queue *q) {
+  for (size_t i = q->head; i < q->tail; i++) {
+    q->data[i - q->head] = q->data[i];
+  }
+}
+```
 ## HEAD
 
 - daca coada este goala, returneza 0
