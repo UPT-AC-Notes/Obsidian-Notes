@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"192590a84f070a3b","type":"text","text":"Header math.h","x":-440,"y":-120,"width":250,"height":60},
+		{"id":"cc767476bbd0f9e2","type":"text","text":"Biblioteca math.c","x":-440,"y":-280,"width":250,"height":60},
+		{"id":"0a7a898c99ee010d","x":-5,"y":-115,"width":250,"height":50,"type":"text","text":"Fisierul main.c"},
+		{"id":"11414808d3093b3c","x":-580,"y":-560,"width":250,"height":60,"type":"text","text":"header2"},
+		{"id":"989634bd86403bd7","x":-255,"y":-560,"width":250,"height":60,"type":"text","text":"header1"},
+		{"id":"ece1b6a4f21fa8bd","x":460,"y":-125,"width":250,"height":60,"type":"text","text":"main.o"},
+		{"id":"61acc7a1e10dbf5b","x":460,"y":-280,"width":250,"height":60,"type":"text","text":"math.o -> fisier obiect"},
+		{"id":"9f441d79c28349e7","x":920,"y":-220,"width":250,"height":60,"type":"text","text":"executabila"}
+	],
+	"edges":[
+		{"id":"721590570d78e35c","fromNode":"cc767476bbd0f9e2","fromSide":"bottom","toNode":"192590a84f070a3b","toSide":"top"},
+		{"id":"d26d54da75d41c08","fromNode":"192590a84f070a3b","fromSide":"right","toNode":"0a7a898c99ee010d","toSide":"left","label":"Includere"},
+		{"id":"be63f597abfd3383","fromNode":"11414808d3093b3c","fromSide":"bottom","toNode":"cc767476bbd0f9e2","toSide":"top","label":"Includere"},
+		{"id":"9d4bb0734ac4b188","fromNode":"989634bd86403bd7","fromSide":"bottom","toNode":"cc767476bbd0f9e2","toSide":"top","label":"Includere"},
+		{"id":"66c612e958d0fe17","fromNode":"cc767476bbd0f9e2","fromSide":"right","toNode":"61acc7a1e10dbf5b","toSide":"left","label":"Compilare"},
+		{"id":"10254cac5db95c6a","fromNode":"0a7a898c99ee010d","fromSide":"right","toNode":"ece1b6a4f21fa8bd","toSide":"left","label":"Compilare"},
+		{"id":"f7a62a6acc2f94a6","fromNode":"61acc7a1e10dbf5b","fromSide":"right","toNode":"9f441d79c28349e7","toSide":"left","label":"Link Editare"},
+		{"id":"6f393de3f73fddc8","fromNode":"ece1b6a4f21fa8bd","fromSide":"right","toNode":"9f441d79c28349e7","toSide":"left","label":"Link Editare"}
+	]
+}
