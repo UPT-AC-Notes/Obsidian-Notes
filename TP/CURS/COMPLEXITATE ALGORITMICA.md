@@ -1,10 +1,36 @@
-# Lab5: Complexitate algoritmica
+# Lab 5: Complexitate algoritmica
 Scopul acestei lucrari de laborator este determinarea experimentala a claselor de complexitate algoritmica si dezvoltarea unei biblioteci de functii pentru masurarea timpilor de executie a subrutinelor de program C.
+
+Din 3 puncte de vedere:
+
+- memorie
+	- RAM
+	- STORAGE / HDD, SSD, NVME
+	- NAS / SAN / CLOUD
+- timp 
+	- finit
+	- finit dar lung
+	- infinit (euristic)
+- energie
+
+### BIG O NOTATION -> WORST CASE PERFORMANCE
+### BETA -> BEST CASE
+### GAMMA -> AVERAGE CASE
+
+- O(1)
+- O(log n) - logaritmic
+- O(n) - liniar
+- O(n log n)
+- O(n ^ 2) - polinomial
+- O(x ^ n) - exponential
+- O(n !) - factorial
+
+
 
 ## 1. Generarea de numere pseudoaleatoare
 Se foloseste funcata rand() din stdlib.h care returneaza la fiecare apel un numar natural cuprins intre 
 
-`[0, RAND_MAX)`. 
+`[0, RAND_MAX)`
 
 Initializarea generatorului de numere pseudoaleatoare se poate face folosind functia srand(unsigned) care primeste un seed si permite generarea de secvente pseudoaleatoare distincte, intre rulari succesive. Apelul la srand() trebuie facut o singura data, ca parte a rutinei de initializare, inainte de orice apel la rand(). 
 
