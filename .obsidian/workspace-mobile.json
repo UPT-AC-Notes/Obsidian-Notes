@@ -11,14 +11,11 @@
             "id": "9af15e0e58255817",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "TP/CURS/Compilarea cu biblioteci.canvas",
-                "viewState": {
-                  "x": 294.15671724004227,
-                  "y": -280.5554519334688,
-                  "zoom": -0.6814502893445848
-                }
+                "file": "TP/LIBRARII PROPRII/LISTE INLANTUITE - LINKED LISTS.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -88,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "TP/CURS/Compilarea cu biblioteci.canvas",
+            "file": "TP/LIBRARII PROPRII/LISTE INLANTUITE - LINKED LISTS.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -105,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "TP/CURS/Compilarea cu biblioteci.canvas",
+            "file": "TP/LIBRARII PROPRII/LISTE INLANTUITE - LINKED LISTS.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -117,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "TP/CURS/Compilarea cu biblioteci.canvas"
+            "file": "TP/LIBRARII PROPRII/LISTE INLANTUITE - LINKED LISTS.md"
           }
         }
       }
@@ -136,9 +133,12 @@
   },
   "active": "9af15e0e58255817",
   "lastOpenFiles": [
-    "LD/FULL ADDER CELL.md",
+    "TP/CURS/Compilarea cu biblioteci.canvas",
+    "TP/CURS/GREEDY.md",
+    "TP/CURS/STIVA SI COADA.md",
     "TP/LIBRARII PROPRII/STIVA - STACK.md",
-    "LD/RIPPLE CARRY ADDER.md",
-    "TP/LIBRARII PROPRII/COADA - QUEUE.md"
+    "LD/FULL ADDER CELL.md",
+    "TP/LIBRARII PROPRII/COADA - QUEUE.md",
+    "LD/RIPPLE CARRY ADDER.md"
   ]
 }

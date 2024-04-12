@@ -154,3 +154,20 @@ bombe.in
 bombe.out
 3
 Explicatie: Prima explodeaza bomba rosie (a 5-a), ea declanseaza cele doua bombe verzi, iar fiecare dintre cele verzi declaseaza cate una albastra. Bombele negre raman neexplodate.
+
+
+## EXPRESII PREFIX
+
+E = op , Es, Ed
+En = n
+
+2 + 3 * 5 - norm
++2 * 3 5
+
+## FLOOD FILL
+
+i, j  -> i, j + 1 // marchez ca l-am mai vizitat odata, conditie de oprire
+
+- o celula vizitata, nu mai trebuie vizitata inca o data
+
+matrice de 0 si 1 
