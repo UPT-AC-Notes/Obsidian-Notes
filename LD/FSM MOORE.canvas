@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"f32b9d0044431d66","type":"text","text":"STATE 1 -> OUTPUT 2","x":-125,"y":-30,"width":213,"height":60},
+		{"id":"451f10b4f7015761","type":"text","text":"STATE 0 -> OUTPUT 0","x":-520,"y":-30,"width":216,"height":60},
+		{"id":"a1433e5bf6f70ae0","type":"text","text":"STATE 2 -> OUTPUT 4","x":240,"y":-30,"width":220,"height":60},
+		{"id":"1417513eb53e3e8e","type":"text","text":"ENABLE = 0","x":-482,"y":-300,"width":140,"height":60},
+		{"id":"491f8dcd6b3b1661","type":"text","text":"ENABLE = 0","x":-88,"y":-300,"width":140,"height":60},
+		{"id":"832036a0aaf7a14d","type":"text","text":"ENABLE = 0","x":280,"y":-300,"width":140,"height":60},
+		{"id":"16aa1bf824482442","x":-80,"y":180,"width":140,"height":60,"type":"text","text":"ENABLE = 1"}
+	],
+	"edges":[
+		{"id":"ae5668786f439509","fromNode":"1417513eb53e3e8e","fromSide":"right","toNode":"451f10b4f7015761","toSide":"top"},
+		{"id":"e1d59851e84645de","fromNode":"451f10b4f7015761","fromSide":"top","toNode":"1417513eb53e3e8e","toSide":"left"},
+		{"id":"5a693991d5f390a8","fromNode":"491f8dcd6b3b1661","fromSide":"left","toNode":"f32b9d0044431d66","toSide":"top"},
+		{"id":"548e7614ebbda11a","fromNode":"491f8dcd6b3b1661","fromSide":"right","toNode":"f32b9d0044431d66","toSide":"top"},
+		{"id":"c2ca5a1ca3adefa2","fromNode":"832036a0aaf7a14d","fromSide":"left","toNode":"a1433e5bf6f70ae0","toSide":"top"},
+		{"id":"77edf55afef6121f","fromNode":"832036a0aaf7a14d","fromSide":"right","toNode":"a1433e5bf6f70ae0","toSide":"top"},
+		{"id":"18429badcd5b2cc6","fromNode":"451f10b4f7015761","fromSide":"right","toNode":"f32b9d0044431d66","toSide":"left","label":"ENABLE = 1"},
+		{"id":"70c41d8fce2c4a0a","fromNode":"f32b9d0044431d66","fromSide":"right","toNode":"a1433e5bf6f70ae0","toSide":"left","label":"ENABLE = 1"},
+		{"id":"f5b18de737def00a","fromNode":"a1433e5bf6f70ae0","fromSide":"right","toNode":"16aa1bf824482442","toSide":"right"},
+		{"id":"0a03a4326f328f3a","fromNode":"16aa1bf824482442","fromSide":"left","toNode":"451f10b4f7015761","toSide":"left"}
+	]
+}
