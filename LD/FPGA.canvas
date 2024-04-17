@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"90b8f9a112e419a4","x":-1460,"y":-460,"width":250,"height":60,"type":"text","text":""},
+		{"id":"e065bffe45587e0b","x":-1460,"y":-120,"width":250,"height":157,"type":"text","text":"Implementare viitoare\n- interfață în Python pentru selectarea operațiilor de procesare"},
+		{"id":"75da818bbaacd278","x":-883,"y":-41,"width":223,"height":60,"type":"text","text":"Flash Storage: 128 MiB"},
+		{"id":"296163413ecb65c8","x":-1500,"y":-239,"width":120,"height":60,"type":"text","text":"CAMERA\nOV7670"},
+		{"id":"860b58c48a450e12","x":-1125,"y":-311,"width":320,"height":205,"type":"text","text":"FPGA - Xilinx Nexys 4 Artix-7\n- switch 0 -> standard output\n- switch 1 -> greyscale\n- switch 2 -> color filter RED\n- switch 3 -> color filter GREEN\n- switch 4 -> color filter BLUE"},
+		{"id":"2a5925304b322092","type":"text","text":"MONITOR","x":-660,"y":-239,"width":140,"height":60},
+		{"id":"51450f668c1c9995","x":-1110,"y":-460,"width":290,"height":60,"type":"text","text":"SCCB \nSerial Camera Control Bus"}
+	],
+	"edges":[
+		{"id":"72ea576016ab2ed4","fromNode":"860b58c48a450e12","fromSide":"right","toNode":"2a5925304b322092","toSide":"left","label":"VGA Cable"},
+		{"id":"66579e41b3800bf8","fromNode":"296163413ecb65c8","fromSide":"right","toNode":"860b58c48a450e12","toSide":"left","label":"PMOD \n(Peripheral Module) \nInterface\nJA / JB"},
+		{"id":"99796186eda1e692","fromNode":"51450f668c1c9995","fromSide":"bottom","toNode":"860b58c48a450e12","toSide":"top"},
+		{"id":"7dc4db81ca67bfdd","fromNode":"860b58c48a450e12","fromSide":"top","toNode":"51450f668c1c9995","toSide":"bottom","label":"sccb_master module"},
+		{"id":"856e1d642f63d3cb","fromNode":"51450f668c1c9995","fromSide":"left","toNode":"90b8f9a112e419a4","toSide":"right"},
+		{"id":"8aef4669a0abf741","fromNode":"90b8f9a112e419a4","fromSide":"right","toNode":"51450f668c1c9995","toSide":"left"},
+		{"id":"c6056a15253879c1","fromNode":"860b58c48a450e12","fromSide":"bottom","toNode":"75da818bbaacd278","toSide":"top"},
+		{"id":"58869cd116fd526b","fromNode":"75da818bbaacd278","fromSide":"top","toNode":"860b58c48a450e12","toSide":"bottom"},
+		{"id":"8b293ec1c72f734b","fromNode":"e065bffe45587e0b","fromSide":"right","toNode":"860b58c48a450e12","toSide":"bottom"}
+	]
+}
