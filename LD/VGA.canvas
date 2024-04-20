@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"89251c3eaf78e277","type":"text","text":"PIXEL","x":-125,"y":-30,"width":105,"height":60},
+		{"id":"a96a2dccfc4ebc0d","type":"text","text":"4 BIT / GREEN","x":-156,"y":-170,"width":168,"height":60},
+		{"id":"ec97d4d54bc0d5ee","type":"text","text":"4 BIT / BLUE","x":40,"y":-170,"width":160,"height":60},
+		{"id":"e148158d430ca92a","type":"text","text":"4 BIT / RED","x":-340,"y":-170,"width":137,"height":60},
+		{"id":"f1e17f082e406399","type":"text","text":"VERTICAL\nFRONT PORCH","x":-480,"y":147,"width":165,"height":70},
+		{"id":"2dcb2922a649309f","type":"text","text":"vPULSE\nVertical\nSync\nPulse\nWidth","x":-28,"y":110,"width":137,"height":144},
+		{"id":"c1cbbf55a2190ab3","type":"text","text":"VERTICAL\nBACK PORCH","x":360,"y":142,"width":160,"height":84},
+		{"id":"5f21b92903a2c5b5","type":"text","text":"VERTICAL DISPLAY (240p)","x":-740,"y":139,"width":160,"height":86}
+	],
+	"edges":[
+		{"id":"c9c47fb1f7e28e57","fromNode":"e148158d430ca92a","fromSide":"bottom","toNode":"89251c3eaf78e277","toSide":"top"},
+		{"id":"27f9f2b9855e3216","fromNode":"a96a2dccfc4ebc0d","fromSide":"bottom","toNode":"89251c3eaf78e277","toSide":"top"},
+		{"id":"424232a5c3a2ba53","fromNode":"ec97d4d54bc0d5ee","fromSide":"bottom","toNode":"89251c3eaf78e277","toSide":"top"},
+		{"id":"ed348904b9224386","fromNode":"5f21b92903a2c5b5","fromSide":"right","toNode":"f1e17f082e406399","toSide":"left"},
+		{"id":"5a739b24c7201ddf","fromNode":"f1e17f082e406399","fromSide":"right","toNode":"2dcb2922a649309f","toSide":"left","label":"VSYNC START"},
+		{"id":"75f324a31eb3c0a6","fromNode":"2dcb2922a649309f","fromSide":"right","toNode":"c1cbbf55a2190ab3","toSide":"left","label":"VSYNC END"}
+	]
+}
